@@ -1,0 +1,5 @@
+\documentclass{article}
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setdefaultlanguage{french}
