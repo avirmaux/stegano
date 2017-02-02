@@ -88,10 +88,10 @@ def main():
         print("Got it!")
 
     # Pipeline
-    print("Generate TeX... ", end='')
+    print("Generating TeX... ", end='')
     generate_tex(title, author, txt, sub)
     print("Done")
-    print("Compilling... ", end='')
+    print("Compiling... ", end='')
     latex_command = "xelatex stegano.tex"
     latex_compilation = subprocess.Popen(latex_command.split(), stdout=subprocess.PIPE)
     output, error = latex_compilation.communicate()
