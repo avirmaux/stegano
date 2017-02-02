@@ -1,5 +1,7 @@
 \documentclass{article}
 
 \usepackage{fontspec}
+\setmainfont[Ligatures=Historic, Style=Alternate]{Linux Libertine}
+
 \usepackage{polyglossia}
 \setdefaultlanguage{french}
